@@ -15,5 +15,6 @@ pipeline {
            cat README.md
         '''
       }
+    }
   }
 }
