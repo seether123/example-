@@ -8,7 +8,7 @@ pipeline {
        }
        stage('readme'){
          when{
-           branch "fix*"
+           branch "fix-*"
        }
        steps {
          sh '''
